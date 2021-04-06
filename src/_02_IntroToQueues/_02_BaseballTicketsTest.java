@@ -97,7 +97,7 @@ public class _02_BaseballTicketsTest {
         assertEquals(20, _02_BaseballTickets.calculateWaitTime(ticketsQueue, 3));
     }
     
-    @Test
+    @Test  
     public void test5() {
         List<Integer> list = Arrays.asList(2, 5, 3, 6, 4); 
         ArrayDeque<Integer> ticketsQueue = new ArrayDeque<Integer>(list);
